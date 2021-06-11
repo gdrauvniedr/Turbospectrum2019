@@ -202,6 +202,10 @@ ccc      external commn_handler
       print*,'* Versions 10.1 and lower give f=sigma.Teff^4/pi *'
       print*,'**************************************************'
       print*
+      
+      print*
+      print*,NDP,NRAYS,lpoint
+      print*
  
       call input
 

@@ -47,3 +47,10 @@ COM-v19.1/models_kurucz
 COM-v19.1/models
 COM-v19.1/linelists
 COM-v19.1/syntspec
+*.interpolopac
+*.mod
+COM-v19.1/spec_script_test.com
+COM-v19.1/spec_script_test.com
+COM-v19.1/output_spec/p4850_g+4.30_m0.0_t01_ip_z-0.03_a+0.00_c+0.00_n+0.00_o+0.00_r+0.00_s+0.00.interpol
+COM-v19.1/contopac/p5000_g+4.5_m0.0_t01_st_z+0.00_a+0.00_c+0.00_n+0.00_o+0.00_r+0.00_s+0.00.modopac
+COM-v19.1/models_old
