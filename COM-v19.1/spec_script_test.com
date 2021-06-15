@@ -3,7 +3,7 @@
 date
 set mpath=models
 
-foreach MODEL (p4850_g+4.30_m0.0_t01_ip_z-0.03_a+0.00_c+0.00_n+0.00_o+0.00_r+0.00_s+0.00.interpol)
+foreach MODEL (p5000_g+4.63_m0.0_t01_ip_z-0.15_a+0.00_c+0.00_n+0.00_o+0.00_r+0.00_s+0.00.interpol)
 
 
 
@@ -13,7 +13,7 @@ set lam_min    = '3800'
 set lam_max    = '9200'
 
 set deltalam   = '0.006'
-set METALLIC   = '-0.03' 
+set METALLIC   = '-0.15' 
 set TURBVEL    = '1' 
 set SUFFIX     = _${lam_min}-${lam_max}_xit${TURBVEL}.spec
 set result     = ${MODEL} 
