@@ -9,8 +9,8 @@ foreach MODEL (p3500_g+4.20_m0.0_t01_ip_z-0.50_a+0.00_c+0.00_n+0.00_o+0.00_r+0.0
 
 
 
-set lam_min    = '3000'
-set lam_max    = '10000'
+set lam_min    = '8000'
+set lam_max    = '9000'
 
 set deltalam   = '0.006'
 set METALLIC   = '-0.5' 
