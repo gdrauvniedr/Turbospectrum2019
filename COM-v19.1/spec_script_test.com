@@ -3,17 +3,17 @@
 date
 set mpath=models
 
-foreach MODEL (p6000_g+4.40_m0.0_t01_ip_z+0.00_a+0.00_c+0.00_n+0.00_o+0.00_r+0.00_s+0.00.interpol)
+foreach MODEL (p5025_g+4.13_m0.0_t01_ip_z-0.15_a+0.00_c+0.00_n+0.00_o+0.00_r+0.00_s+0.00.interpol)
 
 
 
 
 
-set lam_min    = '3000'
-set lam_max    = '4000'
+set lam_min    = '3800'
+set lam_max    = '9200'
 
-set deltalam   = '0.005'
-set METALLIC   = '0.0' 
+set deltalam   = '0.006'
+set METALLIC   = '-0.15' 
 set TURBVEL    = '1' 
 set SUFFIX     = _${lam_min}-${lam_max}_xit${TURBVEL}.spec
 set result     = ${MODEL} 
@@ -58,7 +58,7 @@ EOF
 'ISOTOPES : ' '0'    
 'NFILES   :' '2'  
 DATA/Hlinedata   
-linelists/3000_10000_exw_hfs.list     
+linelists/3500K_5000K_new.list     
 'SPHERICAL:'  'F'  
   30        
   300.00   
