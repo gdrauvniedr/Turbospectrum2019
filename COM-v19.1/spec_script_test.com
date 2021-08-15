@@ -9,12 +9,12 @@ foreach MODEL (p5775_g+4.55_m0.0_t01_ip_z+0.00_a+0.00_c+0.00_n+0.00_o+0.00_r+0.0
 
 
 
-set lam_min    = '3000'
-set lam_max    = '10000'
+set lam_min    = '6500'
+set lam_max    = '8680'
 
 set deltalam   = '0.006'
 set METALLIC   = '0.0' 
-set TURBVEL    = '1' 
+set TURBVEL    = '4.0' 
 set SUFFIX     = _${lam_min}-${lam_max}_xit${TURBVEL}.spec
 set result     = ${MODEL} 
 
