@@ -1,20 +1,20 @@
 #!/bin/csh -f
 
 date
-set mpath=models
+set mpath=models_old
 
-foreach MODEL (p4850_g+4.30_m0.0_t01_ip_z-0.05_a+0.00_c+0.00_n+0.00_o+0.00_r+0.00_s+0.00.interpol)
-
-
+foreach MODEL (p6000_g+4.5_m0.0_t02_st_z+0.00_a+0.00_c+0.00_n+0.00_o+0.00_r+0.00_s+0.00.mod)
 
 
 
-set lam_min    = '8000'
-set lam_max    = '9000'
+
+
+set lam_min    = '8600'
+set lam_max    = '8680'
 
 set deltalam   = '0.006'
-set METALLIC   = '-0.05' 
-set TURBVEL    = '3.4' 
+set METALLIC   = '0.0' 
+set TURBVEL    = '2' 
 set SUFFIX     = _${lam_min}-${lam_max}_xit${TURBVEL}.spec
 set result     = ${MODEL} 
 
@@ -26,7 +26,7 @@ set result     = ${MODEL}
 'LAMBDA_MAX:'  '${lam_max}'
 'LAMBDA_STEP:' '${deltalam}'
 'MODELINPUT:' '$mpath/${MODEL}'
-'MARCS-FILE:' '.false.'
+'MARCS-FILE:' '.true.'
 'MODELOPAC:' 'contopac/${MODEL}opac'
 'METALLICITY:'    '${METALLIC}'
 'ALPHA/Fe   :'    '0.00'
